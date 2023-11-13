@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Music</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/index.css" />
+
+    <!-- SCRIPTS  -->
+    <script type="module" src="src/scripts/index.js"></script>
+  </head>
+  <body>
+    <header class="header__container">
+      <h1 id="header__logo">Open Music</h1>
+      <button class="darkMode">
+        <img class="darkMode__img" src="src/assets/darkMode/moon.svg" alt="" />
+      </button>
+    </header>
+    <main class="main__container">
+      <section class="filter__container">
+        <div class="gender__container">
+          <h2 class="gender__title">Gênero Musical</h2>
+          <div class="gender__buttons"></div>
+        </div>
+        <div class="search__container">
+          <div class="search-price__container">
+            <h2 class="search__title">Definir preço</h2>
+            <p id="search__price">Até R$: 90,00</p>
+            <input
+              id="rangeInput"
+              type="range"
+              min="0"
+              max="90"
+              step="0.1"
+              value="90"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="render-cards__container">
+        <h2 class="render-cards__title">Álbuns Encontrados</h2>
+        <ul class="render-cards__list"></ul>
+      </section>
+    </main>
+  </body>
+</html>
