@@ -1,0 +1,48 @@
+.darkMode {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-grey-9);
+}
+
+.gender__buttons {
+  width: 641px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 10px;
+}
+
+.buttonsGender {
+  border-radius: 4px;
+  border: 1px solid var(--color-grey-8);
+  background: var(--color-grey-7);
+  color: var(--color-grey-1);
+  padding: 7px;
+  cursor: pointer;
+}
+
+.darkMode:hover {
+  cursor: pointer;
+}
+
+.buttonsGender:focus {
+  background-color: var(--color-grey-6);
+  color: var(--color-white-d);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.card__button {
+  color: var(--color-grey-2);
+  border: 1px solid var(--color-grey-7);
+  background: var(--color-grey-7);
+  padding: 3px;
+  border-color: var(--color-grey-4);
+  border-radius: 4px;
+  padding: 4px;
+  position: absolute;
+  bottom: 22px;
+  right: 7px;
+}

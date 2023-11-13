@@ -1,0 +1,161 @@
+@import url(reset.css);
+@import url(globalStyles.css);
+@import url(buttons.css);
+
+.header__container {
+  width: 641px;
+  height: 37px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header__logo {
+  color: var(--color-grey-1);
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.gender__container {
+  display: flex;
+  flex-direction: column;
+  width: 641px;
+  height: 139px;
+  margin: 0 auto;
+}
+
+.gender__title {
+  color: var(--color-grey-1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.search-price__container {
+  width: 625px;
+  height: 67px;
+  margin: 30px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.search__title {
+  color: var(--color-grey-1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#search__price {
+  color: var(--color-grey-2);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+#rangeInput {
+  margin-top: 20px;
+  width: 620px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 4px 0px 0px 4px;
+  background-color: var(--color-brand-2);
+}
+
+.render-cards__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+}
+
+.render-cards__title {
+  margin-bottom: 45px;
+  padding: 10px;
+  color: var(--color-grey-1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.render-cards__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+  gap: 1rem;
+}
+
+.card__image {
+  width: 308px;
+  height: 113px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.card__image:hover {
+  width: 309px;
+}
+
+.card__container:hover {
+  background-color: var(--color-grey-6);
+  cursor: pointer;
+}
+
+.card__container {
+  background-color: var(--color-grey-7);
+  display: flex;
+  flex-direction: column;
+  height: 235px;
+  width: 308px;
+  border-radius: 4px;
+  /* border: 2px solid red; */
+  position: relative;
+}
+
+.div-card-1__container {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
+.div-card-2__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card-band__name {
+  color: var(--color-grey-2);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-band__year {
+  color: var(--color-grey-2);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-title__album {
+  color: var(--color-grey-1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card__price {
+  color: var(--color-grey-1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
