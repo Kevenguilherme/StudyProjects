@@ -1,21 +1,10 @@
-# Open Music - Music Online Store ⤵ 
+# Repository for Study Projects 📚
 
-Open Music is an online store dedicated to purchasing records. Explore an extensive collection, filter by price and genre, powered by JavaScript, HTML and CSS
+🛠️ This repository is dedicated to projects developed during the study period. Here, you will find a collection of code and work that reflects the learning and progress made during this time.
 
-## Features 🚀
+---
 
-- Browse a diverse selection of records.
-- Filter records based on your preferred price range.
-- Explore different genres to find the perfect music for every mood.
-
-## What I've learned 📚 
-
-- Renderings using the DOM
-- How to create Dark Mode using JS
-- Enhanced my knowledge in CSS
+😁 Feel free to explore the various projects and the skills that have been honed along the way. Contributions, feedback, and suggestions are always welcome!
 
 
-## About the Project 
-
-This online store was created as part of my Front End studies at Kenzie Academy Brazil. 
 
