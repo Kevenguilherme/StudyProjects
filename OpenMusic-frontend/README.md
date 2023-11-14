@@ -1,4 +1,4 @@
-# Open Music - Music Online Store ⤵ 
+# Open Music - Music Online Store <a href='project'>⤵ </a>
 
 Open Music is an online store dedicated to purchasing records. Explore an extensive collection, filter by price and genre, powered by JavaScript, HTML and CSS
 
@@ -11,11 +11,28 @@ Open Music is an online store dedicated to purchasing records. Explore an extens
 ## What I've learned 📚 
 
 - Renderings using the DOM
-- How to create Dark Mode using JS
+- Array methods
+- How to create Dark Mode using JavaScript
+- Data persistence in localstorage
 - Enhanced my knowledge in CSS
 
 
 ## About the Project 
 
-This online store was created as part of my Front End studies at Kenzie Academy Brazil. 
+This project was created as part of my Front End studies at Kenzie Academy Brasil.
+
+## Main technologies 🛠️ 
+1. HTML
+2. CSS
+3. JavaScript
+
+
+
+
+---
+
+## Project link 🖥️
+
+[Open Music](https://reimagined-adventure-7vqz8pk.pages.github.io/)
+
 
