@@ -1,0 +1,23 @@
+.productList {
+  width: 95%;
+  max-width: 1400px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 1rem;
+
+  margin: 0 auto;
+
+  // border: 5px solid #1d0781;
+
+  @media (min-width: 700px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 2rem;
+
+    padding: 1rem;
+  }
+}

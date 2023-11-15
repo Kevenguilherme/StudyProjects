@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 300px;
+
+  border-radius: 8px;
+  border: 1px solid var(--color-gray-200);
+
+  img {
+    height: 170px;
+    border-radius: 8px;
+  }
+
+  &:hover {
+    border: 1px solid var(--color-primary);
+  }
+}
+
+.imgBox {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  border-radius: 8px;
+  background-color: var(--color-gray-0);
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding: 1rem;
+  gap: 1rem;
+
+  width: 100%;
+}
