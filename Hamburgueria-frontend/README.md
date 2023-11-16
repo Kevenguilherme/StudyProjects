@@ -16,8 +16,9 @@
 - I advanced my knowledge in fetch and responses API
 
 🛠️ - Main technologies 
-1. React
-2. SASS
+1. Vite
+2. React
+3. SASS
 
 ---
 
