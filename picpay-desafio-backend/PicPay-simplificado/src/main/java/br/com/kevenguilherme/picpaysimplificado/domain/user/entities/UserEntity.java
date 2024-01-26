@@ -20,7 +20,7 @@ public class UserEntity {
     private String name;
 
     @Column(unique = true)
-    private String Document;
+    private String document;
     @Column(unique = true)
     private String email;
 
@@ -28,7 +28,15 @@ public class UserEntity {
     private UserType userType;
     private BigDecimal balance;
 
+    public UserEntity(UserDTO userDTO) {
 
+        this.name = userDTO.name();
+        this.document = userDTO.document();
+        this.email = userDTO.email();
+        this.password = userDTO.password();
+        this.userType = userDTO.userType();
+        this.balance = userDTO.balance();
+    }
 }
 
 
