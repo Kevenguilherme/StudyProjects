@@ -1,8 +1,10 @@
 package br.com.kevenguilherme.picpaysimplificado.domain.user.entities;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -11,6 +13,7 @@ import java.util.UUID;
 @Entity(name = "users")
 @Table(name = "users")
 
+@NoArgsConstructor
 public class UserEntity {
 
     @Id
@@ -37,6 +40,8 @@ public class UserEntity {
         this.userType = userDTO.userType();
         this.balance = userDTO.balance();
     }
+
+
 }
 
 
